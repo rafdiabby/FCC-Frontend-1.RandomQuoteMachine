@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://i.imgur.com/DGgxTPl.png);
+    overflow: hidden;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway";
+}
+
+#quote-box {
+    max-width: 35rem;
+    width: 35rem;
+    
+}
+
+#action-bar {
+    columns : 2;
+}
+
+
+#text {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition-duration: 0.5s;
+}
+
+#author {
+    text-align: right;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.box {
+    border : 2px solid black;
+    border-radius :10px ;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+}
+
+button.box {
+    padding : 10px;
+    outline: none;
+}
+
+.float-right {
+    position: relative;
+    float: right;
+}
+
+button:hover {
+    scale: 1.1;
+    transition : 0.2s;
+}
+
+button:active {
+    scale : 0.9;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mb-1 {
+    margin-bottom : 1rem;
+}
+
+.fa {
+    font-size: 1.1rem !important;
+    width: 1.5rem;
+}
+
+.font-big {
+    font-size: 10rem;
+    height: 80px;
+    overflow: hidden;
+}
+
+#app-title {
+    font-family: "Pacifico";
+    color: rgb(0, 0, 0);
+    /* -webkit-text-stroke: 1px black; */
+    font-size: 1.5rem !important;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+a:visited { 
+    text-decoration: none; 
+   }
+
+a {
+    color: black;
+    text-decoration: none; 
+}

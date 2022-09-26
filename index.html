@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Random Quote Generator</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="app-title">Today's Quote</div>
+        <div id="quote-box" class="box">
+            <div id="text"></div>
+            <div id="author"></div>
+            <div id="action-bar" class="columns-2 mt-1 mb-1">
+                <div id="action-share" class="">
+                    <button class="button box">
+                        <a href="" target="_blank" title="Tweet this quote" id="tweet-quote" class="fa fa-twitter share"></a>
+                    </button>
+                </div>
+                <div id="action-next" class=""><button id="new-quote" onclick="getQuote();" class="box float-right">New Quote</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- *******************
+User Story #1: I can see a wrapper element with a corresponding id="quote-box".
+
+User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
+
+User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
+
+User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+
+User Story #5: Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".
+
+User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
+
+User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".-->
